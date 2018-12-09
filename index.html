@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-
-<html lang"zh-cmm-hant">
-
-<head>
-<title>ccc</title>
-
-<meta charset="utf-8">
-</head>
-
-
-<body>
-
- <p>鄉巴佬請點選以下連結絕對有用</p> 
- <div class="bbs-screen bbs-content center clear">
-        <form action="/ask/over18" method="post">
-            <input type="hidden" name="from" value="/bbs/Gossiping/M.1519490814.A.9A0.html">
-            <div class="over18-button-container">
-                <button class="btn-big" type="submit" name="yes" value="yes">我同意，我已年滿十八歲<br><small>進入</small></button>
-            </div>
-            <div class="over18-button-container">
-                <button class="btn-big" type="submit" name="no" value="no">未滿十八歲或不同意本條款<br><small>離開</small></button>
-                <a class="no18" href="http://friendoprod.blob.core.windows.net/missionpics/images/2293/member/24bb8ef7-6ee4-4635-83a2-37c03884548a.jpg">我未滿18歲 <b>離開</b></a>
-            </div>
-        </form>
-    </div>
-</body>
-
-</html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<html><head>
+        <meta charset="utf-8">
+        <title>您即將進入成人網站,未滿18歲者請勿進入</title>
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/18reset.css">
+        <link rel="stylesheet" href="css/18ban.css">
+        </head>
+        <body>
+                <div class="ban-box">
+                <h1><span>正妹攻略頻道</span></h1>
+                本網站的內容，需年滿18歲具有完全行為能力，且需遵守以下條款︰
+                本人不以任何方式將本網站內容進行轉載、製作未經同意之超連結、複製或移作他用。
+                本人保證已經是年滿18歲並具有自主能力之成年人，進入本網站乃基於本人之意願。
+                <div class="bbs-screen bbs-content center clear">
+                        <form action="/ask/over18" method="post">
+                            <input type="hidden" name="from" value="/bbs/Gossiping/M.1519490814.A.9A0.html">
+                            <div class="over18-button-container">
+                                <button class="btn-big" type="submit" name="yes" value="yes" style="cursor:pointer" onclick="agree()">我已滿18歲 <b>進入</b><a&gthttps://pic.pimg.tw/austinleefuture/1407855268-1776428085_n.jpg
+                          </button></div>
+                            <div class="over18-button-container">
+                                <button class="btn-big" type="submit" name="no" value="no">未滿十八歲或不同意本條款<br><small>離開</small></button>
+                            </div>
+                        </form>
+                    </div>
+                
+                <script>
+                function agree(){
+                    document.cookie = "beauty18=agree;path=/;";
+                    document.location.href = document.referrer;
+                }
+                </script><div id="my-extension-installed" style="visibility: hidden;"></div></div></body>
+        <script>
+        function agree(){
+            document.cookie = "beauty18=agree;path=/;";
+            document.location.href = document.referrer;
+        }
+        </script><div id="my-extension-installed" style="visibility: hidden;"></div></body></html>
